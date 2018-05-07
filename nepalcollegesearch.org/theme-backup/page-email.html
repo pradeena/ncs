@@ -1,0 +1,1673 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+      <meta content="telephone=no" name="format-detection" />
+      <meta content="width=mobile-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no" name="viewport" />
+      <meta content="IE=9; IE=8; IE=7; IE=EDGE" http-equiv="X-UA-Compatible" />
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,700italic,700,500' rel='stylesheet' type='text/css'>
+      <!-- Inline Styles and Media Queries Begins -->
+      <style type="text/css">
+         /* This is to overwrite Outlook.com’s Embedded CSS */
+         table {border-collapse:separate;}
+         a, a:link, a:visited {text-decoration: none; color: #999999;}
+         h2,h2 a,h2 a:visited,h3,h3 a,h3 a:visited,h4,h5,h6,.t_cht {color:#000 !important;}
+         p {margin-bottom: 0}
+         .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td {line-height: 100%;}							
+         .ExternalClass {width: 100%;}/**This is to center your email in Outlook.com************/
+         /* General Resets */
+         #outlook a {padding:0;}
+         body, #body-table {height:100% !important; width:100% !important; margin:0 auto; padding:0; line-height:100% !important; font-family: 'Roboto', sans-serif;}
+         img, a img {border:0; outline:none; text-decoration:none;}
+         .image-fix {display:block;}
+         table, td {border-collapse:collapse;}
+         /* Client Specific Resets */
+         .ReadMsgBody {width:100%;} .ExternalClass{width:100%;}
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100% !important;}
+         .ExternalClass * {line-height: 100% !important;}
+         table, td {mso-table-lspace:0pt; mso-table-rspace:0pt;}
+         img {outline: none; border: none; text-decoration: none; -ms-interpolation-mode: bicubic;}
+         body, table, td, p, a, li, blockquote {-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
+         body.outlook img {width: auto !important;max-width: none !important;}
+         /* Start Template Styles */
+         /* Main */
+         body{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+         body, #body-table {background-color: #cccccc; margin:0 auto !important;; text-align:center !important;}
+         p {padding:0; margin: 0; line-height: 24px; font-family: 'Roboto', sans-serif;}
+         a, a:link {color: #1c344d;text-decoration: none !important;}
+         .footer-link a, .nav-link a {color: #fff6e5;}
+         /* Yahoo Mail */
+         .thread-item.expanded .thread-body{background-color: #000000 !important;}
+         .thread-item.expanded .thread-body .body, .msg-body{display:block !important;}
+         #body-table .undoreset table {display: table !important;table-layout: fixed !important;}
+         /* Online Editor */
+         #inspired-edit{list-style: none !important; margin: 0;padding: 0;}
+         #inspired-edit li{position: relative;cursor: n-resize; list-style-type:none !important;}               
+         #inspired-edit .test{width: 100%;position: relative;}
+         #inspired-edit .test .icon{position: absolute;top: 2px;right: 2px;}
+         #inspired-edit .test .icon img{width: 35px !important; height: 27px !important;}
+         #inspired-edit .ui-sortable-helper{left:0px !important;}
+         #inspired-edit li:hover{border-top:0px dashed #2385f3 !important;;border-bottom:0px dashed #2385f3 !important;}
+         .action-btn{width: 30px; position: absolute; left: 10px; top: 35%; z-index: 2000;}
+         /* Start Media Queries Layout 1 */
+         @media only screen and (max-width: 639px) {
+         *[class].content-width-bg { width:100% !important; }	 
+         *[class].center-bg {text-align:center !important; margin:0 auto  !important; width:100% !important; }
+         *[class].center-bg-image {text-align:center !important;margin:0 auto  !important; width:100% !important;}
+         *[class].mobile-width {width: 480px!important;}
+         *[class].content-width {width: 360px!important;}
+         *[class].content-width-menu{width: 350px!important;}
+         *[class].no-padding {padding:0px !important;}
+         *[class].icon-columns{ width:360px !important; border:none !important; }
+         *[class].center {text-align:center !important; height:auto !important;margin:0 auto  !important;  width:100%;}
+         *[class].center-btn {text-align:center !important; height:auto !important; margin:0 auto; display:block;}
+         #inspired-edit .ui-sortable-helper{left:60px !important;  border-top:1px solid #2385f3 !important;;border-bottom:1px solid #2385f3 !important;}
+         *[class].hidden-space1{ display:none;}
+         *[class].center-bg {text-align:center !important; margin:0 auto  !important; width:100% !important; }
+         *[class].center-bg-image {text-align:center !important;margin:0 auto  !important; width:100% !important;}
+         *[class].hidden-space-left{ display:inherit;}
+         }
+         @media only screen and (max-width: 480px) {
+         *[class].full-width {width: 100%!important;}
+         *[class].mobile-width {width: 360px!important;}
+         *[class].content-width-menu{width: 350px!important;}
+         *[class].content-width {width: 300px!important;}
+         *[class].icon-columns{ width:300px !important; border:none !important; }
+         *[class].center {text-align:center !important; height:auto !important; margin:0 auto  !important; width:100%;}
+         *[class].center-btn {text-align:center !important; height:auto !important; margin:0 auto; display:block;}
+         *[class].center-stack {padding-bottom:30px !important; text-align:center !important; height:auto !important;}
+         *[class].stack {padding-bottom:30px !important; height: auto !important;}
+         *[class].gallery {padding-bottom: 20px!important;}
+         *[class].midaling { width:100% !important; border:none !important; }
+         *[class].center-bg {text-align:center !important; margin:0 auto  !important; width:100% !important; }
+         *[class].center-bg-image {text-align:center !important;margin:0 auto  !important; width:100% !important;}
+         }
+         @media only screen and (max-width: 360px) {
+         *[class].full-width {width: 100%!important;}
+         *[class].mobile-width {width: 100%!important;}
+         *[class].content-width {width: 270px!important;}
+         *[class].content-width-menu{width: 270px!important;}
+         *[class].content-width-image{width: 270px!important;}
+         *[class].icon-columns{ width:290px !important; border:none !important; }
+         *[class].center {text-align:center !important; height:auto !important;margin:0 auto  !important;  width:100%;}
+         *[class].center-btn {text-align:center !important; height:auto !important; margin:0 auto; display:block;}
+         *[class].center-stack {padding-bottom:30px !important; text-align:center !important; height:auto !important;}
+         *[class].stack {padding-bottom:30px !important; height: auto !important;}
+         *[class].gallery {padding-bottom: 20px!important;}
+         *[class].fluid-img {height:auto !important; max-width:600px !important; width: 100% !important; min-width:320px !important;}
+         *[class].midaling { width:100% !important; border:none !important;}
+         #inspired-edit .ui-sortable-helper{left:0px !important;  border-top:1px solid #2385f3 !important;;border-bottom:1px solid #2385f3 !important;}
+         *[class].center-bg {text-align:center !important; margin:0 auto  !important; width:100% !important; }
+         *[class].center-bg-image {text-align:center !important;margin:0 auto  !important; width:100% !important;}
+         }
+      </style>
+      <!-- Inline Styles and Media Queries Ends -->
+   </head>
+   <!-- Banner Begins -->
+   <body yahoo="fix" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+      <!-- Menu & Logo Section Begins -->
+      <table cellpadding="0" cellspacing="0" border="0" width="640" align="center" bgcolor="ffffff" class="mobile-width " style="border-bottom:1px solid #f5f5f5;">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="600" cellpadding="0" cellspacing="0" class="content-width" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <!-- Container Width -->
+                              <table cellpadding="0" cellspacing="0" border="0" align="center" width="600" class="content-width">
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <!-- Start Logo -->
+                                          <table cellpadding="0" cellspacing="0" width="120" border="0" align="left" class="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td align="center">																								
+                                                      <a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/logo-dark.png" width="170" height="35" alt="" /></a>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Logo -->
+                                          <!-- Start Nav -->
+                                          <table cellspacing="0" cellpadding="0" border="0" align="right" class="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="23" style="font-size: 23px; line-height: 23px;">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td>
+                                                      <table cellspacing="0" cellpadding="0" border="0" align="center" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center" style="color: #777777; font-size: 13px;font-family: 'Roboto', sans-serif; font-weight: bold; line-height: 20px;">
+                                                                  <a  style="color: #777777; padding:0px 10px; text-decoration: none; text-transform:uppercase;" href="">Home</a>
+                                                                  <a  style="color: #777777;padding:0px 10px; text-decoration: none;text-transform:uppercase;" href="">About Us</a>
+                                                                  <a  style="color: #777777; padding:0px 10px; text-decoration: none;text-transform:uppercase;" href="">Features</a>
+                                                                  <a  style="color: #777777; padding:0px 10px; text-decoration: none;text-transform:uppercase;" href="">Contact</a>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td height="23" style="font-size: 23px; line-height: 23px;">&nbsp;</td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <!-- Container Width Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <!-- Layout Width Ends -->
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Menu & Logo Section Ends -->
+      <!-- Slider Section Begins -->
+      <table cellpadding="0" cellspacing="0" bgcolor="1c1d1f" border="0" width="640" align="center" background="images/email-img/header1.jpg" style="background:images/email-img/header1.jpg;background-repeat: no-repeat; !important;background-position: center center;background-size: cover;" class="mobile-width">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <!-- Start Space -->
+                        <tr>
+                           <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                        </tr>
+                        <!-- End Space -->
+                        <tr>
+                           <td align="center">
+                              <!-- Container Table -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <!-- Left Part Content -->
+                                          <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td align="right" class="center white_color" style="font-family: 'Roboto', sans-serif; font-size: 18px; font-style:italic; mso-line-height-rule:exactly; line-height:30px; font-weight:400; color: #333333;">
+                                                      You only have to know one thing.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->                                    
+                                                <tr>
+                                                   <td align="right" class="center white_color" style="font-family: 'Roboto', sans-serif; font-size: 35px; text-transform:capitalize; mso-line-height-rule:exactly; line-height:40px; font-weight:400; color: #333333;">
+                                                      You Can Learn Anything
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Button -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" align="right">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center">
+                                                                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#2196f3" align="center" width="110" class="btn_bg">
+                                                                     <tbody>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="10" style="font-size: 10px; line-height: 10px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                        <tr>
+                                                                           <td align="center" style="color: #ffffff; font-size: 15px; font-family: 'Roboto', sans-serif; ">
+                                                                              <a style="color: #ffffff; text-decoration: none;" href="">
+                                                                              Learn More
+                                                                              </a>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="10" style="font-size: 10px; line-height: 10px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Button Ends -->       
+                                                <tr>
+                                                   <td height="50" style="font-size: 50px; line-height: 50px;">&nbsp;</td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                        <!-- Start Space -->
+                        <tr>
+                           <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                        </tr>
+                        <!-- End Space -->
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Slider Section Ends -->         
+      <!-- Start Space -->
+      <table width="640" align="center" cellspacing="0" bgcolor="ffffff" cellpadding="0" border="0" class="mobile-width ">
+         <tbody>
+            <tr>
+               <td class="res-space" height="60"></td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- End Space -->
+      <!-- Welcome Section Begins -->
+      <table cellpadding="0" cellspacing="0" border="0" width="640" align="center" bgcolor="ffffff" class="mobile-width">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <!-- Container Table -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <!-- Welcome Inner Begins -->
+                                    <tr>
+                                       <td>
+                                          <!-- Welcome Box 1 -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#2196f3" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/icon1.png" width="40" height="40" alt="" /></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; text-transform:capitalize; font-weight:500; line-height:20px;color:#ffffff;">
+                                                      Trusted University
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#ffffff;">
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit repudiandae odit iste.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                             </tbody>
+                                          </table>
+                                          <!-- Welcome Box 1 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Welcome Box 2 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#2196f3" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/icon2.png" width="40" height="40" alt="" /></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500;text-transform:capitalize;line-height:20px;color:#ffffff;" >
+                                                      Expert Professor
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space --> 
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#ffffff;">
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit repudiandae odit iste.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                             </tbody>
+                                          </table>
+                                          <!-- Welcome Box 2 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Welcome Box 3 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" width="180" bgcolor="#2196f3" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/icon3.png" width="40" height="40" alt="" /></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500;text-transform:capitalize;  line-height:20px;color:#ffffff;" mc:edit="welcome-title3" >
+                                                      Top School
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#ffffff;">
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit repudiandae odit iste.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                             </tbody>
+                                          </table>
+                                          <!-- Welcome Box 3 Ends -->
+                                       </td>
+                                    </tr>
+                                    <!-- Welcome Inner Ends -->
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="60">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Welcome Section Ends -->
+      <!-- Counting Section Begins -->
+      <table cellpadding="0" cellspacing="0" border="0" width="640" align="center" bgcolor="252525" class="mobile-width">
+         <tbody>
+            <tr>
+               <td height="60" style="font-size: 60px; line-height: 60px;">&nbsp;</td>
+            </tr>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <table cellspacing="0" cellpadding="0" border="0" align="center" class="content-width">
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 25px; mso-line-height-rule:exactly; letter-spacing:-1px;font-weight:400;line-height:23px;color:#ffffff; text-transform:capitalize" mc:edit="about2-title" class="center">
+                                          <multiline label="about2-title">
+                                             About Universh
+                                          </multiline>
+                                       </td>
+                                    </tr>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                    <!-- Image -->
+                                    <tr>
+                                       <td align="center">
+                                          <table cellspacing="0" cellpadding="0" border="0" align="center">
+                                             <tbody>
+                                                <tr>
+                                                   <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" class="editable_img"><img src="images/email-img/line.png" alt="" editable="true" mc:edit="s-line"/></a></td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                    <!-- Description -->
+                                    <tr>
+                                       <td data-size="Section Text" data-color="Section Text" align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; line-height:24px; font-weight:400; padding:0px 50px;color: #ffffff;" mc:edit="about2-text">
+                                          <multiline label="about2-text">
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam
+                                          </multiline>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </td>
+                        </tr>
+                        <!-- Start Space -->
+                        <tr>
+                           <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                        </tr>
+                        <!-- End Space -->
+                        <tr>
+                        <tr>
+                           <td align="center">
+                              <!-- Container Table -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <!-- Counting Inner Begins -->
+                                    <tr>
+                                       <td>
+                                          <!-- Counting Box 1 -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#111111" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; text-transform:capitalize; font-weight:500; line-height:20px;color:#ffffff;">
+                                                      Subjects
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 25px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#ffffff;">
+                                                      452
+                                                   </td>
+                                                </tr>
+												<!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/icon4.png" width="35" height="35" alt="" /></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space --> 
+                                             </tbody>
+                                          </table>
+                                          <!-- Counting Box 1 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Counting Box 2 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#111111" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; text-transform:capitalize; font-weight:500; line-height:20px;color:#ffffff;">
+                                                      Modern Lab
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 25px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#ffffff;">
+                                                      97
+                                                   </td>
+                                                </tr>
+                                                <!-- Image -->
+												<tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/icon5.png" width="37" height="37" alt="" /></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space --> 
+                                             </tbody>
+                                          </table>
+                                          <!-- Counting Box 2 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Counting Box 3 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#111111" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; text-transform:capitalize; font-weight:500; line-height:20px;color:#ffffff;">
+                                                      Instructors
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 25px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#ffffff;">
+                                                      300
+                                                   </td>
+                                                </tr>
+												<!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/icon6.png" width="40" height="40" alt="" /></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space --> 
+                                             </tbody>
+                                          </table>
+                                          <!-- Counting Box 3 Ends -->
+                                       </td>
+                                    </tr>
+                                    <!-- Counting Inner Ends -->
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="70">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Counting Section Ends -->
+      <!-- Start Space -->
+      <table width="640" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff" border="0" class="mobile-width">
+         <tbody>
+            <tr>
+               <td height="60"></td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- End Space --> 
+      <!-- Featured Section Begins -->
+      <table cellpadding="0" cellspacing="0" border="0" width="640" align="center" bgcolor="ffffff" class="mobile-width ">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <table cellspacing="0" cellpadding="0" border="0" align="center" class="content-width">
+                                 <tbody>
+                                    <tr>
+                                       <td  align="center" style="font-family: 'Roboto', sans-serif; font-size: 25px; mso-line-height-rule:exactly; letter-spacing:-1px;font-weight:400;line-height:23px;color:#333333; text-transform:capitalize" mc:edit="about2-title" class="center">
+                                          <multiline label="about2-title">
+                                             Our Featured Courses
+                                          </multiline>
+                                       </td>
+                                    </tr>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                    <!-- Image -->
+                                    <tr>
+                                       <td align="center">
+                                          <table cellspacing="0" cellpadding="0" border="0" align="center">
+                                             <tbody>
+                                                <tr>
+                                                   <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" class="editable_img"><img src="images/email-img/line.png" alt="" editable="true" mc:edit="s-line"/></a></td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                    <!-- Description -->
+                                    <tr>
+                                       <td data-size="Section Text" data-color="Section Text" align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; line-height:24px; font-weight:400; padding:0px 50px;color: #787878;" mc:edit="about2-text">
+                                          <multiline label="about2-text">
+                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam
+                                          </multiline>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </td>
+                        </tr>
+                        <!-- Start Space -->
+                        <tr>
+                           <td height="40" style="font-size: 40px; line-height: 40px;">&nbsp;</td>
+                        </tr>
+                        <!-- End Space -->
+                        <tr>
+                           <td align="center">
+                              <!-- Why Choose Inner Begins -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <!-- Why Choose Box 1 -->
+                                          <table cellspacing="0" cellpadding="0" border="0" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/image1.jpg" width="180" alt="" class="content-width"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize; line-height:26px;color:#454545;">
+                                                      Chemical Engineer
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="8" style="font-size: 8px; line-height:8px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#454545;">
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Button -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" align="left">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center">
+                                                                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#2196f3" align="center" width="90" class="btn_bg">
+                                                                     <tbody>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="8" style="font-size: 8px; line-height: 8px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                        <tr>
+                                                                           <td align="center" style="color: #ffffff; font-size: 14px; font-family: 'Roboto', sans-serif; ">
+                                                                              <a style="color: #ffffff; text-decoration: none;" href="">
+                                                                              Apply Now
+                                                                              </a>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="8" style="font-size: 8px; line-height: 8px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Button Ends -->
+                                             </tbody>
+                                          </table>
+                                          <!-- Why Choose Box 1 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Why Choose Box 2 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/image2.jpg" width="180" alt="" class="content-width"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize; line-height:26px;color:#454545;">
+                                                      Logo Designing
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="8" style="font-size: 8px; line-height:8px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#454545;">
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Button -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" align="left">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center">
+                                                                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#2196f3" align="center" width="90" class="btn_bg">
+                                                                     <tbody>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="8" style="font-size: 8px; line-height: 8px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                        <tr>
+                                                                           <td align="center" style="color: #ffffff; font-size: 14px; font-family: 'Roboto', sans-serif; ">
+                                                                              <a style="color: #ffffff; text-decoration: none;" href="">
+                                                                              Apply Now
+                                                                              </a>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="8" style="font-size: 8px; line-height: 8px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Button Ends -->
+                                             </tbody>
+                                          </table>
+                                          <!-- Why Choose Box 2 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Why Choose Box 3 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="60" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/image3.jpg" width="180" alt="" class="content-width"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="20" style="font-size: 20px; line-height: 20px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize; line-height:26px;color:#454545;">
+                                                      Web Development
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="8" style="font-size: 8px; line-height:8px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#454545;">
+                                                      Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Button -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" align="left">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center">
+                                                                  <table cellspacing="0" cellpadding="0" border="0" bgcolor="#2196f3" align="center" width="90" class="btn_bg">
+                                                                     <tbody>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="8" style="font-size: 8px; line-height: 8px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                        <tr>
+                                                                           <td align="center" style="color: #ffffff; font-size: 14px; font-family: 'Roboto', sans-serif; ">
+                                                                              <a style="color: #ffffff; text-decoration: none;" href="">
+                                                                              Apply Now
+                                                                              </a>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <!-- Start Space -->
+                                                                        <tr>
+                                                                           <td height="8" style="font-size: 8px; line-height: 8px;"> </td>
+                                                                        </tr>
+                                                                        <!-- End Space -->
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Button Ends -->
+                                             </tbody>
+                                          </table>
+                                          <!-- Why Choose Box 3 Ends -->
+                                       </td>
+                                    </tr>
+                                    <!-- Why Choose Inner Ends -->
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="70">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Why Choose Us Ends -->      
+      <!-- Blog Section Begins -->
+      <table cellpadding="0" cellspacing="0" border="0"  width="640" align="center" bgcolor="eeeeee" class="mobile-width">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <!-- Container Table -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="50" style="font-size: 50px; line-height: 50px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                    <tr>
+                                       <td align="center">
+                                          <table cellspacing="0" cellpadding="0" border="0" align="center" class="content-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td  align="center" style="font-family: 'Roboto', sans-serif; font-size: 25px; mso-line-height-rule:exactly; letter-spacing:-1px;font-weight:400;line-height:23px;color:#333333; text-transform:capitalize" mc:edit="about2-title" class="center">
+                                                      <multiline label="about2-title">
+                                                         Students Blog
+                                                      </multiline>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" align="center">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" class="editable_img"><img src="images/email-img/line.png" alt="" editable="true" mc:edit="s-line"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <!-- Description -->
+                                                <tr>
+                                                   <td data-size="Section Text" data-color="Section Text" align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; line-height:24px; font-weight:400; padding:0px 50px;color: #787878;" mc:edit="about2-text">
+                                                      <multiline label="about2-text">
+                                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam
+                                                      </multiline>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="60" style="font-size: 60px; line-height: 60px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space --> 
+                                    <!-- Blog3 Begins -->                  
+                                    <tr>
+                                       <td>
+                                          <!-- Blog3 Box 1 -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="180" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/blog1.jpg" width="100%" alt="" class="content-width"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize; line-height:20px;color:#454545;padding:0px 10px 0 10px;">
+                                                      Blog Item Title
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <tr>
+                                                   <td align="left" style="padding-left:10px;"><a href="#" style="border-style: none !important; line-height:4px;border: 0 !important;" ><img src="images/email-img/line.png" width="24" height="4" alt=""/></a></td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Sub Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; font-style:italic; padding:0px 10px 0 10px; line-height:10px;color:#7b7b7b;">
+                                                      14 April | 14 Comments
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#454545;padding:0px 10px 0 10px;" mc:edit="blog-text1" >
+                                                      Lorem ipsum dolor sit amet consec tetur adipi sicing elit repudiandae.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                             </tbody>
+                                          </table>
+                                          <!-- Blog3 Box 1 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Blog3 Box 2 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="180" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/blog2.jpg" width="100%" alt="" class="content-width"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize; line-height:20px;color:#454545; padding:0px 10px 0 10px;">
+                                                      Blog Item Title
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <tr>
+                                                   <td align="left" style="padding-left:10px;"><a href="#" style="border-style: none !important; line-height:4px;border: 0 !important;" ><img src="images/email-img/line.png" width="24" height="4" alt=""/></a></td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Sub Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; font-style:italic; padding:0px 10px 0 10px; line-height:10px;color:#7b7b7b;">
+                                                      14 April | 14 Comments
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#454545;padding:0px 10px 0 10px;">
+                                                      Lorem ipsum dolor sit amet consec tetur adipi sicing elit repudiandae.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                             </tbody>
+                                          </table>
+                                          <!-- Blog3 Box 2 Ends -->
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="10" height="24" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="55" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 30px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <!-- Blog3 Box 3 Begins -->
+                                          <table cellspacing="0" cellpadding="0" border="0" bgcolor="#f5f5f5" width="180" align="left" class="content-width center">
+                                             <tbody>
+                                                <!-- Image -->
+                                                <tr>
+                                                   <td align="center">
+                                                      <table cellspacing="0" cellpadding="0" border="0" width="180" align="center" class="content-width">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center"><a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/blog3.jpg" width="100%" alt="" class="content-width"/></a></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize; line-height:20px;color:#454545; padding:0px 10px 0 10px;">
+                                                      Blog Item Title
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <tr>
+                                                   <td align="left" style="padding-left:10px;"><a href="#" style="border-style: none !important; line-height:4px;border: 0 !important;" ><img src="images/email-img/line.png" width="24" height="4" alt=""/></a></td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Sub Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; font-style:italic; padding:0px 10px 0 10px; line-height:10px;color:#7b7b7b;">
+                                                      14 April | 14 Comments
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                                <!-- Title -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400; line-height:22px;color:#454545;padding:0px 10px 0 10px;">
+                                                      Lorem ipsum dolor sit amet consec tetur adipi sicing elit repudiandae.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="15" style="font-size: 15px; line-height: 15px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                             </tbody>
+                                          </table>
+                                          <!-- Blog3 Box 3 Ends -->
+                                       </td>
+                                    </tr>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="60">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Blog Section Ends -->         
+      <!-- Footer Begins -->
+      <table cellpadding="0" cellspacing="0" border="0" bgcolor="#363839" width="640" align="center" class="mobile-width ">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <!-- Container Table -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <!-- About Universh -->
+                                          <table cellspacing="0" cellpadding="0" border="0" width="260" align="left" class="content-width">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->   
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize;line-height:30px;color:#f5f5f5;">
+                                                      Universh
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:normal;line-height:20px;color:#c8c8c9; border-bottom:1px solid #333333; padding-bottom:5px;">
+                                                      Lorem Ipsum is simply dummy text the printing and typesetting.
+                                                   </td>
+                                                </tr>
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:normal;line-height:20px;color:#c8c8c9;">
+                                                      Lorem Ipsum standard dummy text scrambled it make a type specimen reprehenderit in voluptate.
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->   
+                                                <!-- Read More -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-style:italic; font-weight:600; line-height:20px;color:#2196f3;">
+                                                      <a style="color: #2196f3; text-decoration: none;" href="" >
+                                                      Read More
+                                                      </a>
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space --> 
+                                             </tbody>
+                                          </table>
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="5" height="15" cellpadding="0" border="0" class="full-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="15" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left:20px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space --> 
+                                          <table cellspacing="0" cellpadding="0" border="0" width="260" align="left" class="content-width">
+                                             <tbody>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="30" style="font-size: 30px; line-height: 30px;" class="hidden-space1">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->    
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 20px; mso-line-height-rule:exactly; font-weight:500; text-transform:capitalize;line-height:30px;color:#f5f5f5;">
+                                                      Contact
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->                                                      
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:normal;line-height:20px;color:#c8c8c9;padding-right:15px;">
+                                                      No.56, Area name, State, Country code. 
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:600;line-height:20px;color:#c8c8c9;">
+                                                      0 (123) 456-78-90
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->   
+                                                <tr>
+                                                   <td align="left" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:600;line-height:20px;color:#c8c8c9;">
+                                                      info@yourmail.com
+                                                   </td>
+                                                </tr>
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->    
+                                                <!-- Social Image -->
+                                                <tr>
+                                                   <td>
+                                                      <table width="60" align="left" cellspacing="0" cellpadding="0" border="0">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="center" height="24" style="padding-right:10px;">																								
+                                                                  <a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/f-facebook.png" width="16" height="16" alt=""/></a>
+                                                               </td>
+                                                               <td align="center" height="24" style="padding-right:10px;">																								
+                                                                  <a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/f-twitter.png" width="16" height="16" alt=""/></a>
+                                                               </td>
+                                                               <td align="center" height="24" style="padding-right:10px;">																								
+                                                                  <a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/f-google-plus.png" width="16" height="16" alt=""/></a>
+                                                               </td>
+                                                               <td align="center" height="24" style="padding-right:10px;">																								
+                                                                  <a href="#" style="border-style: none !important; border: 0 !important;" ><img src="images/email-img/f-pinterest.png" width="16" height="16" alt=""/></a>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                                <!-- Social Image End --> 
+                                                <!-- Start Space -->
+                                                <tr>
+                                                   <td height="30" style="font-size: 30px; line-height: 30px;">&nbsp;</td>
+                                                </tr>
+                                                <!-- End Space -->  
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Footer Bg Ends -->  
+      <!-- Copyright Begins -->
+      <table cellpadding="0" cellspacing="0" border="0" bgcolor="#282a2b" width="640" align="center" class="mobile-width ">
+         <tbody>
+            <tr>
+               <td>
+                  <!-- Layout Table -->
+                  <table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <!-- Container Table -->
+                              <table cellspacing="0" cellpadding="0" border="0" width="600" class="content-width">
+                                 <tbody>
+                                    <!-- Start Space -->
+                                    <tr>
+                                       <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->   
+                                    <!-- Copyright Content -->					   
+                                    <tr>
+                                       <td align="center">
+                                          <table cellspacing="0" cellpadding="0" border="0" width="400" align="left" class="content-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:400;line-height:30px;color:#999999;" class="center">
+                                                      Copyright © glorythemes.in., 2015 | All rights reserved
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- Start Space -->
+                                          <table align="left" cellspacing="0" width="5" height="10" cellpadding="0" border="0" class="hidden-space">
+                                             <tbody>
+                                                <tr>
+                                                   <td height="10" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                                                      <p style="padding-left: 10px;"> </p>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                          <!-- End Space -->
+                                          <table cellspacing="0" cellpadding="0" width="170" border="0" align="left" class="content-width">
+                                             <tbody>
+                                                <tr>
+                                                   <td align="center" style="font-family: 'Roboto', sans-serif; font-size: 13px; mso-line-height-rule:exactly; font-weight:700;line-height:30px;color:#999999;" mc:edit="copyright-text2" class="center">
+                                                      <unsubscribe style="font-style:italic; font-weight:600; color:#2196f3;" >unsubscribe.</unsubscribe>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td height="10" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+                                    </tr>
+                                    <!-- End Space -->
+                                 </tbody>
+                              </table>
+                              <!-- Container Table Ends -->
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <!-- Copyright Ends --> 
+   </body>
+   <!-- Banner Ends -->
+</html>
